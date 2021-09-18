@@ -1,0 +1,12 @@
+<h1></h1>
+<table align="center" border="1">
+<tr><th>id</th><th>name</th><th>address</th><th>email</th></tr>
+{% for provider in providers %}
+<tr>
+<td>{{provider.id}}</td>
+<td>{{provider.name}}</td>
+<td>{{provider.address}}</td>
+<td>{{provider.email}}</td>
+</tr>
+{% endfor %}
+</table>
